@@ -1,0 +1,18 @@
+{% extends 'core/base.html' %}
+
+{% block title %}
+    Welcome
+{% endblock title %}
+
+{% block content %}
+    <h1 class="display-4 text-center mt-5">WhatToDo</h1>
+    <div class="p-5 my-4 bg-light rounded-3 w-75 mx-auto">
+        <form action="">
+            <div class="input-group rounded p-3">
+                <input type="search" class="form-control rounded py-3" placeholder="Go to GYM...." aria-label="Search" aria-describedby="search-addon" />
+                <input type="submit" class="btn btn-secondary" value="Add Task">
+              </div>
+
+        </form>
+    </div>
+{% endblock content %}
