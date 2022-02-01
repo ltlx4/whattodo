@@ -12,7 +12,7 @@ Create and activate the virtualenv for your project.
     
 Install project dependencies:
 
-    $ pip install -r requirements/local.txt
+    $ pip install -r requirements.txt
     
     
 Then simply apply the migrations:
