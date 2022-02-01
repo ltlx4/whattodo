@@ -1,0 +1,25 @@
+
+td {
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+
+td:nth-child(2), td:nth-child(3){
+    text-align: center !important;
+    width: 10%;
+    padding: 1em .2em !important;
+}
+
+
+tr.done {
+    background-color: gray;
+}
+
+td .btn-sm {
+    margin-right: .4em;
+}
+
+.text-decoration-line-through {
+    width: 2em;
+}
