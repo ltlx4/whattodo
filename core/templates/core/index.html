@@ -7,12 +7,18 @@
 {% block content %}
     <h1 class="display-4 text-center mt-5">WhatToDo</h1>
     <div class="p-5 my-4 bg-light rounded-3 w-75 mx-auto">
-        <form action="">
-            <div class="input-group rounded p-3">
-                <input type="search" class="form-control rounded py-3" placeholder="Go to GYM...." aria-label="Search" aria-describedby="search-addon" />
+        <form hx-post="{% url 'add-todo' %}" hx-target="#todos" hx-swap="outerHTML">
+            <div class="input-group rounded py-2">
+                <input type="search" class="form-control rounded py-3" name="title" placeholder="Enter your task title..." aria-label="Search" aria-describedby="search-addon" />
                 <input type="submit" class="btn btn-secondary" value="Add Task">
-              </div>
-
+            </div>
         </form>
+        <div class="rounded mx-auto mt-3 px-5 py-1 d-flex justify-content-between text-light" style="background-color:#6c757d; width:95%;">
+            <p class="fs-5" style="margin:0;">Task title</p>
+            <p class="fs-5" style="margin:0;">actions</p>
+        </div>
+        {% include 'partials/todos.html' %}
+
+
     </div>
 {% endblock content %}
