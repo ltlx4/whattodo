@@ -6,7 +6,7 @@ Simple, modern Async Todo Web applicaiton. build using Django, Bootstrap and Htm
 First clone the repository from Github and switch to the new directory:
 
     $ git clone git@github.com:ltlx4/whattodo.git
-    $ cd {{ whattodo }}
+    $ cd whattodo/
     
 Create and activate the virtualenv for your project.
     
