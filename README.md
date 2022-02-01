@@ -1,6 +1,10 @@
 # WhatTodo
 Simple, modern Async Todo Web applicaiton. build using Django, Bootstrap and Htmx.
 
+Live demo
+
+https://what2odo.herokuapp.com/
+
 # Getting Started
 
 First clone the repository from Github and switch to the new directory:
